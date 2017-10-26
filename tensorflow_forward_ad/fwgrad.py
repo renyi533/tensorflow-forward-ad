@@ -37,7 +37,6 @@ import tensorflow as tf
 
 from tensorflow.python.ops import gen_nn_ops
 from tensorflow_forward_ad import logger
-from tensorflow_forward_ad import maxpool_gradgrad
 from tensorflow_forward_ad.graph import get_path_cover_str_list_list
 
 log = logger.get()
